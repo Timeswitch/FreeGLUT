@@ -120,7 +120,6 @@ IF(WIN32)
         src/mswin/fg_joystick_mswin.c
         src/mswin/fg_main_mswin.c
         src/mswin/fg_menu_mswin.c
-        src/mswin/fg_spaceball_mswin.c
         src/mswin/fg_state_mswin.c
         src/mswin/fg_structure_mswin.c
         src/mswin/fg_window_mswin.c
