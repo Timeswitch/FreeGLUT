@@ -152,7 +152,7 @@ void fgSpaceballHandleWinEvent(HWND hwnd, WPARAM wParam, LPARAM lParam)
 			// Orientation is a right handed coordinate system with 
 			// X goes right, Y goes up and Z goes towards viewer, e.g.
 			// the one used in OpenGL
-			if (pRawInput->data.hid.bRawData[0] ==
+			/*if (pRawInput->data.hid.bRawData[0] ==
 				SPNAV_EVENT_MOTION_TRANSLATION)
 			{ // Translation vector
 				short* pnData = (short*)(&pRawInput->data.hid.bRawData[1]);
@@ -191,7 +191,7 @@ void fgSpaceballHandleWinEvent(HWND hwnd, WPARAM wParam, LPARAM lParam)
 					}
 				}
 				__fgSpaceKeystate = dwKeystate;
-			}
+			}*/
 		}
 	}
 }

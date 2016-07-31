@@ -118,6 +118,7 @@ IF(WIN32)
         src/mswin/fg_internal_mswin.h
         src/mswin/fg_input_devices_mswin.c
         src/mswin/fg_joystick_mswin.c
+        src/mswin/fg_spaceball_mswin.c
         src/mswin/fg_main_mswin.c
         src/mswin/fg_menu_mswin.c
         src/mswin/fg_state_mswin.c
